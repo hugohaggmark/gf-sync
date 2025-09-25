@@ -34,6 +34,7 @@
         "fieldConfig": {
           "defaults": {
             "color": {
+              "fixedColor": "dark-blue",
               "mode": "palette-classic"
             },
             "custom": {
@@ -115,10 +116,12 @@
               "type": "grafana-testdata-datasource",
               "uid": "aerar5t5olpfkb"
             },
-            "refId": "A"
+            "refId": "A",
+            "scenarioId": "random_walk",
+            "seriesCount": 5
           }
         ],
-        "title": "New panel",
+        "title": "The Panel",
         "type": "timeseries"
       }
     ],
